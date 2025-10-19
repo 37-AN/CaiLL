@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --version:*)",
+      "Bash(npm:*)",
+      "Bash(docker:*)",
+      "Bash(test:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(python:*)",
+      "Bash(findstr:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: CaiLL AI Trading System\n\n🚀 Phase 5 Complete - Full-stack AI trading platform\n\nFeatures:\n- ✅ Next.js 15 frontend with real-time dashboard\n- ✅ Multi-agent RL system (PPO, A2C, DQN)\n- ✅ RL training monitoring interface\n- ✅ Professional backtesting engine\n- ✅ Monte Carlo simulation & walk-forward analysis\n- ✅ 30+ performance metrics\n- ✅ Socket.IO real-time communication\n- ✅ Risk management & safety controls\n\nTech Stack:\n- Frontend: React 19, TypeScript, Tailwind CSS 4, shadcn/ui\n- Backend: Python, FastAPI, Stable-Baselines3, Gymnasium\n- Database: PostgreSQL, Redis, InfluxDB, Pinecone\n- Infrastructure: Docker, Prometheus, Grafana\n\nStatus: Frontend 100% operational, Backend 70% ready\nNext: Fix Python backend imports for full integration\n\n🤖 Generated with Claude Code (claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
